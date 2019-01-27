@@ -6,7 +6,7 @@ from requests.auth import HTTPDigestAuth
 import json
 import os
 
-m4_include("/home/appdaemon/code/appdaemon/adlib_imports.pyi")
+m4_include(/home/appdaemon/code/appdaemon/adlib_imports.pyi)
 class luxor(hass.Hass):
 
   def initialize(self):
@@ -79,4 +79,4 @@ class luxor(hass.Hass):
     except ConnectionError:
       self.log("Connection error")
 
-m4_include("/home/appdaemon/code/appdaemon/adlib.pyi")
+m4_include(/home/appdaemon/code/appdaemon/adlib.pyi)
